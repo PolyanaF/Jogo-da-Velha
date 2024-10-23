@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(41, 41, 41);
+    height: 100vh;
+
+}
+
+
+
+
+h1 {
+    color: rgb(250, 250, 250);
+    font-size: 6vh;
+    margin: 0 auto;
+    display: flex;
+    /* eixo X */
+    align-items: center;
+    /* eixo Y */
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(65, 65, 65);
+    color: rgb(202, 202, 202);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2vh auto;
+    display: flex;
+}
+
+hr {
+    color: rgb(250, 250, 250);
+    margin: 2vh auto;
+    width: 80%;
+}
+
+
+main {
+    background-color: rgb(250, 250, 250);
+    width: 620px;
+    height: 620px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; /* eixo X */
+    justify-content: center; /* eixo Y */
+}
+
+#tabuleiro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* eixo X */
+    align-items: center;
+    /* eixo Y */
+    justify-content: center;
+    /* flex-wrap: wrap;  */
+
+}
+
+.quadrado {
+    width: 180px;
+    height:  180px;
+    margin: 5px;
+    border: 5px solid rgb(20, 20, 20);
+    border-radius: 10px;
+
+    /* DENTRO DO QUADRADO */
+    font-size: 100px;
+    display: flex;
+    /* eixo X */
+    align-items: center;
+    /* eixo Y */
+    justify-content: center;
+}
+
+p {
+    color: rgb(201, 201, 201);
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 4vh;
+    margin: 15px auto;
+    display: flex;
+    /* eixo X */
+    align-items: center;
+    /* eixo Y */
+    justify-content: center;
+}
+
+#quadrado-v {
+    width: 180px;
+    height:  180px;
+    margin: 5px;
+    border: 5px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    background-color: rgb(39, 141, 26);
+
+    /* DENTRO DO QUADRADO */
+    font-size: 100px;
+    display: flex;
+    /* eixo X */
+    align-items: center;
+    /* eixo Y */
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
